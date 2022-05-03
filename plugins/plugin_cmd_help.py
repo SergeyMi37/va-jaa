@@ -1,4 +1,4 @@
-# Плагин для озвучивания достуаных текущих команд VA
+# Плагин для озвучивания доступных текущих команд VA
 # author: Mikhaylenko Sergey
 
 from datetime import datetime
