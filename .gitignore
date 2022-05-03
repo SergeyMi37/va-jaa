@@ -1,0 +1,12 @@
+/options/
+/plugins_my/
+/timer/
+/silero_*
+/.idea/
+/plugins/plugin_tts_rhvoice.py
+/rhvoice_temp.wav
+/temp/
+/plugins/plugin_tts_silero.py
+/venv/
+/.venv/
+*.pyc
