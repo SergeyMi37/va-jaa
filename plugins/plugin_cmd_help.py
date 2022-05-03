@@ -1,5 +1,5 @@
-# Игра больше меньше (альтернативная реализация на меню)
-# author: Vladislav Janvarev
+# Плагин для озвучивания достуаных текущих команд VA
+# author: Mikhaylenko Sergey
 
 from datetime import datetime
 
@@ -9,7 +9,7 @@ import random
 # функция на старте
 def start(core:VACore):
     manifest = { # возвращаем настройки плагина - словарь
-        "name": "Подсказка по всем актуальным командам и их описаниям", # имя
+        "name": "Подсказка по всем актуальным командам", # короткое описание
         "version": "1.0", # версия
         "require_online": False, # требует ли онлайн?
 
@@ -28,23 +28,16 @@ def help_cancel(core:VACore, phrase: str):
     return
 
 def help_short(core:VACore, phrase: str):
-    #core.play_voice_assistant_speech("выполняю команды")
     help_cmd(core,phrase,"short")
-    #core.context_set(menu_main) # - снова включить текущий контекст
-    #core._context_clear_timer # - сбросить таймер
     return
 
 def help_desc(core:VACore, phrase: str):
-    #core.play_voice_assistant_speech("подробно о командах")
     help_cmd(core,phrase,"desc")
-    #core.context_set(menu_main)
     return
 
 menu_main = {"кратко|коротко":help_short,"подробно":help_desc,"отмена":help_cancel}
 
 def help_cmd(core:VACore, phrase: str, mode_help: str):
-    #import inspect; print(inspect.getmembers(core.plugin_manifests))
-    #import json;    print(json.dumps(core.commands))
     for manifs in core.plugin_manifests.keys():
         commands=core.plugin_manifests[manifs].get('commands')
         name=core.plugin_manifests[manifs].get('name')
@@ -60,6 +53,4 @@ def help_cmd(core:VACore, phrase: str, mode_help: str):
                 
                 print(msg)
                 core.say(msg)
-                #if __name__ == "__main__":
-                #core.play_voice_assistant_speech(msg)
     return

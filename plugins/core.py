@@ -20,7 +20,7 @@ def start(core:VACore):
             "ttsEngineId2": "", # двиг для прямой озвучки на сервере. Если пуст - используется ttsEngineId
             "playWavEngineId": "audioplayer",
             "linguaFrancaLang": "ru", # язык для библиотеки lingua-franca конвертирования чисел
-            "voiceAssNames": "ира|иры|иру",
+            "voiceAssNames": "лика|лики|лику",
             "logPolicy": "cmd", # all | cmd | none
             
 			"logCmd": "print_and_say", # print_and_say Выводить в терминал сообщения VA и говорить | print_only без голоса 
