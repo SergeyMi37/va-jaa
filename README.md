@@ -7,7 +7,7 @@ Supports skills through jaa - plugins from https://github.com/janvarev/Irene-Voi
 # What's new
 ## Added context support to the module `runva_cmdline.py`
 
-## added kernel parameters:
+## added `cope.py` parameters:
 
 - "durationContext":50 # context duration  
 
