@@ -45,7 +45,7 @@ def help_cmd(core:VACore, phrase: str, mode_help: str):
             for keyall in commands.keys():
                 keys = keyall.split("|")
                 msg=keys[0]
-                if msg=="что умеешь":
+                if "что" in msg:
                     continue
     
                 if mode_help=='desc':
