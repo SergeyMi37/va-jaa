@@ -2,7 +2,7 @@
 
 Voice assistant for offline work. 
 
-Supports skills through jaa - plugins from https://github.com/janvarev/Irene-Voice-Assistant
+Supports skills through jaa - plugins from [Irene-Voice-Assistant](https://github.com/janvarev/Irene-Voice-Assistant)
 
 # What's new
 ## Added context support to the module `runva_cmdline.py`
