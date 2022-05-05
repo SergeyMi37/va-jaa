@@ -3,8 +3,10 @@
 Voice assistant for offline work. 
 
 Supports skills through jaa - plugins from [Irene-Voice-Assistant](https://github.com/janvarev/Irene-Voice-Assistant)
+Features of installation under Linux [Linux](https://github.com/janvarev/Irene-Voice-Assistant/blob/master/docs/INSTALL_LINUX.md)
 
 # What's new
+
 ## Added context support to the module `runva_cmdline.py`
 
 ## added `cope.py` parameters:
