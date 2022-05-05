@@ -11,8 +11,8 @@ Features of installation under Linux [Linux](https://github.com/janvarev/Irene-V
 
 ## added `cope.py` parameters:
 
-- "durationContext":50 # context duration  
+- "durationContext":50   #context duration  
 
-- "logCmd": "print_and_say"  # silent output mode for debugging
+- "logCmd": "print_and_say"   #silent output mode for debugging
 
 ## implemented plugin for voicing current commands `plugin_cmd_help.py`
