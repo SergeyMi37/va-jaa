@@ -7,7 +7,7 @@ Supports skills through jaa - plugins from [Irene-Voice-Assistant](https://githu
 # What's new
 ## Added context support to the module `runva_cmdline.py`
 
-## added `cope.py` parameters:
+## added `core.py` parameters:
 
 - "durationContext":50 # context duration  
 
